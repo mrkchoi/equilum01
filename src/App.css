@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Josephin Sans';
+  src: url('/assets/fonts/josephin.woff2') format('woff2');
+}
+
+.title {
+  font-family: 'Josephin Sans', sans-serif;
+  letter-spacing: 8vw;
+  text-indent: 8vw;
+  font-size: 4vw;
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2vw;
+  }
+}
+
+.titleScroll {
+  position: fixed;
+  bottom: 1.5rem;
+  font-family: 'Josephin Sans', sans-serif;
+  /* letter-spacing: 0.5vw; */
+  /* text-indent: 0.5vw; */
+  /* font-size: 0.75vw; */
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
