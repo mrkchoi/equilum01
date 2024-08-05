@@ -1,8 +1,5 @@
-import React, { Suspense, useEffect, useRef } from 'react';
+import React, { Suspense } from 'react';
 import { Model } from './Model';
-import { OrbitControls, PerspectiveCamera } from '@react-three/drei';
-import { loadCurveFromJSON } from '../utils/curveTools/CurveMethods';
-import { useThree } from '@react-three/fiber';
 import Sky from './Sky';
 import {
   Bloom,
